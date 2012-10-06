@@ -105,20 +105,6 @@ function be_custom_menu_order( $menu_ord ) {
  * @return array 
  *
  */
-<<<<<<< HEAD
-function be_default_facebook_image( $attachment_id ) {
-	$attachment_id = 50;
-	return $attachment_id;
-}
-
-/** Adds credit information to the footer of the admin sections
-*/
-
-add_filter( 'admin_footer_text', 'bk_admin_footer_text' );
-function bk_admin_footer_text( $default_text ) {
-     return '<span id="footer-thankyou">Website developed by <a href="http://www.brandonkraft.net">Brandon Kraft</a><span> | Powered by <a href="http://www.wordpress.org">WordPress</a>';
-}
-=======
 function be_default_facebook_image( $meta ) {
 	if( isset( $meta['image'] ) && empty( $meta['image'] ) )
 		$meta['image'] = get_stylesheet_directory_uri() . '/images/facebook.jpg';
@@ -178,4 +164,11 @@ function be_pp( $obj, $label = '' ) {
     </script>
     <?php
 }
->>>>>>> upstream/master
+
+/** Adds credit information to the footer of the admin sections
+*/
+
+add_filter( 'admin_footer_text', 'bk_admin_footer_text' );
+function bk_admin_footer_text( $default_text ) {
+     return '<span id="footer-thankyou">Website developed by <a href="http://www.coffeaweb.com">Coffea Web Services</a><span> | Powered by <a href="http://www.wordpress.org">WordPress</a>';
+}
