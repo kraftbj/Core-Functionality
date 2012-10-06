@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Core Functionality
- * Plugin URI: https://github.com/billerickson/Core-Functionality
+ * Plugin URI: http://www.coffeaweb.com/
  * Description: This contains all your site's core functionality so that it is theme independent.
  * Version: 1.1.0
- * Author: Bill Erickson
- * Author URI: http://www.billerickson.net
+ * Author: Brandon Kraft
+ * Author URI: http://www.brandonkraft.com
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU 
  * General Public License version 2, as published by the Free Software Foundation.  You may NOT assume 
@@ -13,6 +13,9 @@
  *
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without 
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * The vast majority of this code is from Bill Erickson's Core Functionality plugin
+ * https://github.com/billerickson/Core-Functionality
  *
  */
 
